@@ -7,7 +7,9 @@ import store from "./store/store.js"; //状态管理
 import ElementUI from "element-ui"; //框架
 import "element-ui/lib/theme-chalk/index.css"; //依赖样式
 Vue.use(ElementUI);
-
+// 多语言
+import VueI18n from 'vue-i18n'
+Vue.use(VueI18n)
 Vue.config.productionTip = false
 
 // 页面进度条 简单配置

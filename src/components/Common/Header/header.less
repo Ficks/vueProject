@@ -1,0 +1,92 @@
+.headder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(33, 33, 33, .3);
+    background: rgb(84, 92, 100);
+}
+
+.logo {
+    width: 220px;
+    text-align: center;
+    height: 100%;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    img {
+        width: 150px;
+    }
+}
+
+.right-menu {
+    padding-right: 40px;
+    box-sizing: border-box;
+    .topUl {
+        padding-right: 20px;
+        li {
+            float: left;
+            a {
+                color: #fff;
+                line-height: 80px;
+                display: block;
+                padding: 0 10px;
+            }
+            &:hover {
+                background: rgb(67, 74, 80);
+            }
+        }
+    }
+}
+
+.personalCenter {
+    transition: all .3s;
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+    h3 {
+        line-height: 80px;
+        padding-left: 10px;
+        color: #fff;
+    }
+    &:hover,
+    &.active {
+        background: rgb(67, 74, 80);
+    }
+    ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background: rgb(84, 92, 100);
+        width: 100%;
+        transition: all .3s;
+        overflow: hidden;
+    }
+    li {
+        width: 100%;
+        a {
+            width: 100%;
+            color: #fff;
+            line-height: 56px;
+            height: 56px;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        &:hover {
+            background: rgb(67, 74, 80);
+        }
+    }
+}
