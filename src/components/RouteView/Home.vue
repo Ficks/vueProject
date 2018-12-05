@@ -3,7 +3,7 @@
     <Header></Header>
     <Nav></Nav>
     <transition :name="transitionName">
-      <router-view class="Router vue-main" :style="{'padding-left':isLeftNavHidden?'64x':'220px'}"></router-view>
+      <router-view class="Router vue-main" :style="{'padding-left':isLeftNavHidden?'64px':'220px'}"></router-view>
     </transition>
   </div>
 </template>
